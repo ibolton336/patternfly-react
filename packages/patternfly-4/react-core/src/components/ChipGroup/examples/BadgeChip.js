@@ -18,7 +18,6 @@ class BadgeChip extends React.Component {
   };
 
   deleteItem = id => {
-    debugger;
     const copyOfbadgeChipArray = this.state.badgeChipArray;
     const index = copyOfbadgeChipArray.findIndex(chipObj => chipObj.name === id);
 
